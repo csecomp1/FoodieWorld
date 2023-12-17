@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies World</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    
+   <div class="top-nav">
+        <div class="head">Foodies World</div>
+        <div class="icons">
+            
+            <img src="images/cart.png" id="cartclick">
+            <span class="label label-primary" id="count">7</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="cartdisp"></div>
+        <div id="tot">
+            <p>Total Item : <span id="titem" value="0">0</span></p>
+            <p>Total Cost : <span id="tcost" value="0">0</span></p>
+            <button>Checkout</button>
+        </div>
+        <div class="left">
+        <div class="box" id="r1">
+            <div class="item"><h class="item-head">Biriyani</h></div>
+            <div class="briyani">
+                
+                <div class="b"><img src='images/biryani/Ambur-Chicken-Biryani.jpg'><p>Ambur Chicken Biriyani</p><p>Price :</p><span>90</span><button class="b1" value="1">Add to cart</button></div>
+                <div class="b"><img src='images/biryani/Chicken-Biryani-hyd.jpg'><p>Hyderabad Briyani</p><p>Price :</p><span>80</span><button class="b1" value="2">Add to cart</button></div>
+                <div class="b"><img src='images/biryani/egg-biryani.jpeg'><p>Egg Biryani</p><p>Price :</p><span>99</span><button class="b1" value="3">Add to cart</button></div>
+                <div class="b"><img src='images/biryani/goan-fish-biryani.jpg'><p>Goan Fish Biryani</p><p>Price :</p><span>120</span><button class="b1" value="4">Add to cart</button></div>
+                <div class="b"><img src='images/biryani/hyd-Mutton-Biryani.jpg'><p>Mutton Biryani</p><p>Price :</p><span>140</span><button class="b1" value="5">Add to cart</button></div>
+                <div class="b"><img src='images/biryani/kamrupi-biryani.jpg'><p>Kamrupi Biryani</p><p>Price :</p><span>150</span><button class="b1" value="6">Add to cart</button></div>
+            </div>
+            </div>
+            <div class="box" id="r2">
+                <div class="item"><h class="item-head">Chicken Gravy</h></div>
+                <div class="briyani chicken">
+                    
+                    <div class="b"><img src='images/chicken/Chicken-Curry.jpg'><p>Chicken Curry</p><p>Price :</p><span>100</span><button class="c1" value="1">Add to cart</button></div>
+                    <div class="b"><img src='images/chicken/Chicken-do-Pyaza.jpg'><p>Chicken Pyaza</p><p>Price :</p><span>120</span><button class="c1" value="2">Add to cart</button></div>
+                    <div class="b"><img src='images/chicken/Chicken-Masala.jpeg'><p>Chicken Masala</p><p>Price :</p><span>90</span><button class="c1" value="3">Add to cart</button></div>
+                    <div class="b"><img src='images/chicken/Chicken_roast.jpg'><p>Chicken Roast</p><p>Price :</p><span>80</span><button class="c1" value="4">Add to cart</button></div>
+                    <div class="b"><img src='images/chicken/Handi-chicken.jpg'><p>Handi Chicken</p><p>Price :</p><span>130</span><button class="c1" value="5">Add to cart</button></div>
+                    <div class="b"><img src='images/chicken/Murgh-Musallam.jpg'><p>Murg Musallam</p><p>Price :</p><span>200</span><button class="c1" value="6">Add to cart</button></div>
+                </div>
+                </div>
+                <div class="box" id="r3">
+                    <div class="item"><h class="item-head">Chinese</h></div>
+                    <div class="briyani chinese">
+                        
+                        <div class="b"><img src='images/chinese/cabbage-momos-.jpg'><p>Cabaage Momos</p><p>Price :</p><span>100</span><button class="ch1" value="1">Add to cart</button></div>
+                        <div class="b"><img src='images/chinese/ChickenManchurian.jpg'><p>Chicken Manchurian</p><p>Price :</p><span>120</span><button class="ch1" value="2">Add to cart</button></div>
+                        <div class="b"><img src='images/chinese/Chili-Chicken.jpg'><p>Chili Chicken</p><p>Price :</p><span>90</span><button class="ch1" value="3">Add to cart</button></div>
+                        <div class="b"><img src='images/chinese/chowmin.jpg'><p>Chowmin</p><p>Price :</p><span>80</span><button class="ch1" value="4">Add to cart</button></div>
+                        <div class="b"><img src='images/chinese/mmos.jpg'><p>Momos</p><p>Price :</p><span>130</span><button class="ch1" value="5">Add to cart</button></div>
+                        <div class="b"><img src='images/chinese/spring-rolls.jpg'><p>Spring rolls</p><p>Price :</p><span>200</span><button class="ch1" value="6">Add to cart</button></div>
+                    </div>
+                    </div>
+                    <div class="box" id="r4">
+                        <div class="item"><h class="item-head">Paneer</h></div>
+                        <div class="briyani paneer">                          
+                            <div class="b"><img src='images/paneer/Matar-Paneer.jpg'><p>Matar Paneer</p><p>Price :</p><span>100</span><button class="p1" value="1">Add to cart</button></div>
+                            <div class="b"><img src='images/paneer/palak-paneer.jpg'><p>Palak Paneer</p><p>Price :</p><span>120</span><button class="p1" value="2">Add to cart</button></div>
+                            <div class="b"><img src='images/paneer/paneer-butter-masala.jpg'><p>Paneer Butter Masala</p><p>Price :</p><span>90</span><button class="p1" value="3">Add to cart</button></div>
+                            <div class="b"><img src='images/paneer/Paneer-Do-Pyaza.jpg'><p>Paneer Pyaza</p><p>Price :</p><span>80</span><button class="p1" value="4">Add to cart</button></div>
+                            <div class="b"><img src='images/paneer/vegetable-curry.jpeg'><p>Vegetable Curry</p><p>Price :</p><span>130</span><button class="p1" value="5">Add to cart</button></div>
+                            <div class="b"><img src='images/paneer/Paneer-Hyderabadi.jpg'><p>Paneer Hyderabadi</p><p>Price :</p><span>200</span><button class="p1" value="6">Add to cart</button></div>
+                        </div>
+                        </div>
+                        <div class="box" id="r5">
+                            <div class="item"><h class="item-head">South Indian</h></div>
+                            <div class="briyani indian">
+                                
+                                <div class="b"><img src='images/south indian/Butter-Masala-Dosa.png'><p>Butter Masala Dosa</p><p>Price :</p><span>100</span><button class="s1" value="1">Add to cart</button></div>
+                                <div class="b"><img src='images/south indian/idli-with-rice-flour.jpg'><p>Idly</p><p>Price :</p><span>120</span><button class="s1" value="2">Add to cart</button></div>
+                                <div class="b"><img src='images/south indian/masala-dosa.jpg'><p>Masala Dosa</p><p>Price :</p><span>90</span><button class="s1" value="3">Add to cart</button></div>
+                                <div class="b"><img src='images/south indian/mysore-bonda.jpg'><p>Mysore Bonda</p><p>Price :</p><span>80</span><button class="s1" value="4">Add to cart</button></div>
+                                <div class="b"><img src='images/south indian/onion-uttapam.jpg'><p>Onion Uttapam</p><p>Price :</p><span>130</span><button class="s1" value="5">Add to cart</button></div>
+                                <div class="b"><img src='images/south indian/plain-dosa.jpeg'><p>Plain Dosa</p><p>Price :</p><span>200</span><button class="s1" value="6">Add to cart</button></div>
+                            </div>
+                            </div>
+                            <div class="box" id="r6">
+                                <div class="item veg"><h class="item-head">Vegetable</h></div>
+                                <div class="briyani">
+                                    
+                                    <div class="b"><img src='images/vegetable/navratan-korma_-vegetable.png'><p>Vegetable Kuruma</p><p>Price :</p><span>100</span><button class="v1" value="1">Add to cart</button></div>
+                                    <div class="b"><img src='images/vegetable/VEG-JALFREZI.jpg'><p>Veg Jalfrezi</p><p>Price :</p><span>120/span><button class="v1" value="2">Add to cart</button></div>
+                                    <div class="b"><img src='images/vegetable/vegetable-biryani.jpg'><p>Veg Briyani</p><p>Price :</p><span>90</span><button class="v1" value="3">Add to cart</button></div>
+                                    <div class="b"><img src='images/vegetable/vegetable-curry.jpeg'><p>Veg Curry</p><p>Price :</p><span>80</span><button class="v1" value="4">Add to cart</button></div>
+                                    <div class="b"><img src='images/vegetable/vegetable-kolhapuri.jpg'><p>Veg kolhapuri</p><p>Price :</p><span>130</span><button class="v1" value="5">Add to cart</button></div>
+                                    <div class="b"><img src='images/vegetable/vegetable-masala.jpg'><p>Veg Masala</p><p>Price :</p><span>200</span><button class="v1" value="6">Add to cart</button></div>
+                                </div>
+                                </div>
+                    </div>
+                        <div class="bo" >
+                            <ul>
+                                <li><a href="#r1">Biriyani</a></li>
+                                <li><a href="#r2">Chicken Gravy</a></li>
+                                <li><a href="#r3">Chinese</a></li>
+                                <li><a href="#r4">Paneer</a></li>
+                                <li><a href="#r5">South Indian</a></li>
+                                <li><a href="#r6">Vegetable</a></li>
+                            </ul>
+                           
+                        </div>
+    </div>
+    
+    
+    <script src="js/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+  <script src="script.js">
+
+  </script>
+</body>
+</html>
